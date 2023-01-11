@@ -30,7 +30,7 @@ header {
   -ms-flex: 1;
   flex: 1;
   font-weight: 700;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 #bigText {
@@ -40,7 +40,7 @@ header {
   line-height: 52px;
   text-align: left;
   padding: 3.12rem 1.5rem 0 1.5rem;
-  color: #172B4d;
+  color: #172b4d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,7 +61,7 @@ header {
   font-size: 1rem;
   line-height: 24px;
   font-weight: 500;
-  color: #7f8Cff;
+  color: #7f8cff;
   padding: 0.75rem 1.5rem 0;
 }
 
