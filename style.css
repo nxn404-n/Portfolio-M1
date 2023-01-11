@@ -8,6 +8,7 @@
 html {
   font-family: 'Poppins', sans-serif;
 }
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,10 +19,12 @@ header {
   -ms-flex-align: baseline;
   align-items: baseline;
 }
+
 #logo {
   width: 1.6rem;
   height: 1rem;
 }
+
 #logoPlaceHolder {
   -webkit-box-flex: 1;
   -ms-flex: 1;
@@ -29,6 +32,7 @@ header {
   font-weight: 700;
   color: #6070FF;
 }
+
 #bigText {
   height: 150px;
   width: 317px;
@@ -36,7 +40,7 @@ header {
   line-height: 52px;
   text-align: left;
   padding: 3.12rem 1.5rem 0 1.5rem;
-  color: #172B4D;
+  color: #172B4d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,6 +48,7 @@ header {
   -ms-flex-align: center;
   align-items: center;
 }
+
 #smallText {
   font-size: 1rem;
   line-height: 24px;
@@ -51,16 +56,19 @@ header {
   color: #344563;
   padding: 0.75rem 1.5rem 0 1.5rem;
 }
+
 #supportingText {
   font-size: 1rem;
   line-height: 24px;
   font-weight: 500;
-  color: #7F8CFF;
-  padding: 0.75rem 1.5rem 0 ;
+  color: #7f8Cff;
+  padding: 0.75rem 1.5rem 0;
 }
+
 .icon {
   padding: 0.9375rem 1.25rem 0.625rem 0;
 }
+
 .icon1 {
   padding-left: 1.5rem;
 }
