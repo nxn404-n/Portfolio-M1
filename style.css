@@ -1,49 +1,66 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 html {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 header {
-    display: flex;
-    padding: 1rem;
-    background-image: url(header-background-mobile.png);
-    align-items: baseline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  background-image: url(header-background-mobile.png);
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
 }
-#logo{
-    width: 1.6rem;
-    height: 1rem;
+#logo {
+  width: 1.6rem;
+  height: 1rem;
 }
 #logoPlaceHolder {
-    flex: 1;
-    font-weight: 700;
-    color: #6070FF;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-weight: 700;
+  color: #6070FF;
 }
 #bigText {
-    height: 150px;
-    width: 317px;
-    font-size: 1.6rem;
-    line-height: 52px;
-    text-align: left;
-    padding: 3.12rem 1.5rem 0 1.5rem;
-    color: #172B4D;
-    display: flex;
-    align-items: center;
+  height: 150px;
+  width: 317px;
+  font-size: 1.6rem;
+  line-height: 52px;
+  text-align: left;
+  padding: 3.12rem 1.5rem 0 1.5rem;
+  color: #172B4D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 #smallText {
-    font-size: 1rem;
-    line-height: 24px;
-    font-weight: 400;
-    color: #344563;
-    padding: 0.75rem 1.5rem 0 1.5rem;
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 400;
+  color: #344563;
+  padding: 0.75rem 1.5rem 0 1.5rem;
 }
 #supportingText {
-    font-size: 1rem;
-    line-height: 24px;
-    font-weight: 500;
-    color: #7F8CFF;
-    padding: 0.75rem 1.5rem 0 ;
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 500;
+  color: #7F8CFF;
+  padding: 0.75rem 1.5rem 0 ;
 }
 .icon {
-    padding: 0.9375rem 1.25rem 0.625rem 0;
+  padding: 0.9375rem 1.25rem 0.625rem 0;
 }
 .icon1 {
-    padding-left: 1.5rem;
+  padding-left: 1.5rem;
 }
