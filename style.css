@@ -24,6 +24,7 @@ body {
   line-height: 68px;
   text-align: left;
   color: #172b4d;
+  padding-top: 20px;
 }
 
 .headline #smallText {
@@ -62,7 +63,7 @@ body {
 }
 
 nav {
-  padding: 14px 24px 12px;
+  padding: 20px 24px 21px;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
