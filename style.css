@@ -12,10 +12,11 @@ li {
 
 body {
   display: flex;
-  max-width: 375px;
+  overflow-x: hidden;
   flex-direction: column;
   background-color: white;
   margin: auto;
+  border: 2px solid red;
 }
 
 .headline #bigText {
@@ -43,16 +44,20 @@ body {
 
 .socialmedia ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   padding: 0;
 }
 
 .headline {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   padding: 14px 24px;
   background-image: url(header-shapes\ mobile.png);
-  height: 718px;
+  height: 716px;
+  background-size: cover;
+  flex: 1;
   background-repeat: no-repeat;
   align-items: flex-start;
 }
