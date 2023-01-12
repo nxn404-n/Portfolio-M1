@@ -16,7 +16,6 @@ body {
   flex-direction: column;
   background-color: white;
   margin: auto;
-  border: 2px solid red;
 }
 
 .headline #bigText {
