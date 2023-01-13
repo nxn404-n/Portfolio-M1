@@ -42,6 +42,12 @@ body {
   font-size: 1rem;
 }
 
+ul {
+  display: flex;
+  gap: 12px;
+  padding: 0;
+}
+
 .socialmedia ul {
   display: flex;
   flex-wrap: wrap;
@@ -82,7 +88,6 @@ nav #myLogo {
 }
 
 .grid-box {
-  width: min(327px, 80vw);
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -104,7 +109,7 @@ nav #myLogo {
 }
 
 .box {
-  background-color: #ffffff;
+  background-color: #fff;
   gap: 20px;
   border-radius: 15px;
   display: flex;
@@ -112,7 +117,7 @@ nav #myLogo {
   align-items: flex-start;
   padding: 16px;
   width: min(327px, 80vw);
-  border: 2px solid #DFE1E6;
+  border: 2px solid #dfe1e6;
 }
 
 .banner {
@@ -121,12 +126,11 @@ nav #myLogo {
 }
 
 input {
-  color: #396DF2;
+  color: #396df2;
   font-size: 17px;
   font-weight: 500;
-  width: 110px;
   background-color: #fff;
-  border-color: #6070FF;
+  border-color: #6070ff;
   border-radius: 8px;
   padding: 8px 5px;
   display: flex;
@@ -138,15 +142,11 @@ h1 {
   line-height: 44px;
 }
 
-ul {
-  display: flex;
-  gap: 12px;
-  padding: 0;
-}
-
 p {
   text-align: left;
   font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 @media (max-width: 330px) {
@@ -176,18 +176,12 @@ p {
   font-size: 40px;
 }
 
-p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-}
-
 .resume {
-  color: #396DF2;
+  color: #396df2;
   font-size: 17px;
   font-weight: 500;
   background-color: #fff;
-  border-color: #6070FF;
+  border-color: #6070ff;
   padding: 4px 14px 4px 14px;
   display: flex;
   border-radius: 8px;
