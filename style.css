@@ -226,7 +226,6 @@ p {
 }
 
 .dropdown {
-  width: min(375px, 80vw);
   display: flex;
   flex-direction: column;
   padding: 0 49px;
