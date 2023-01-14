@@ -14,52 +14,56 @@ body {
   display: flex;
   overflow-x: hidden;
   flex-direction: column;
-  background-color: white;
+  background-image: url(req/header-background-mobile.png);
   margin: auto;
 }
 
 .headline #bigText {
-  font-size: 29px;
+  font-size: 55px;
   font-weight: 700;
   line-height: 68px;
   text-align: left;
   color: #172b4d;
-  padding-top: 20px;
 }
 
-.headline #smallText {
-  font-size: 1rem;
+.headline .smallText {
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #344563;
 }
 
-.socialmedia #supportingText {
+.supportingText {
   color: #7f8cff;
   font-weight: 500;
   line-height: 24px;
   font-size: 1rem;
 }
 
+ul {
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+
 .socialmedia ul {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 0;
+  padding: 8px 0;
 }
 
 .headline {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  padding: 14px 24px;
-  background-image: url(header-shapes\ mobile.png);
-  height: 716px;
-  background-size: cover;
-  flex: 1;
+  padding: 17px 24px 197px 24px;
+  background-image: url(req/header-shapes\ mobile.png);
+  background-size: 100% 85%;
   background-repeat: no-repeat;
   align-items: flex-start;
+  gap: 20px;
 }
 
 nav {
@@ -79,4 +83,214 @@ nav #myLogo {
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
+}
+
+.grid-box {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e5e5e5;
+  border-radius: 8px;
+  width: 100%;
+  gap: 88px;
+  padding: 104px 0;
+}
+
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 24px 16px;
+}
+
+.box {
+  background-color: #fff;
+  gap: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  width: min(327px, 80vw);
+  border: 2px solid #dfe1e6;
+}
+
+.banner {
+  border-radius: 8px;
+  width: min(327px, 80vw);
+}
+
+.sm-btn {
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #fff;
+  border-color: #6070ff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  display: flex;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 44px;
+}
+
+p {
+  text-align: left;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tag {
+  background-color: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  color: #6070ff;
+}
+
+.about {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  flex-wrap: wrap;
+}
+
+.about-header {
+  line-height: 52px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.resume {
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #fff;
+  border-color: #6070ff;
+  padding: 10px 14px;
+  display: flex;
+  border-radius: 8px;
+}
+
+.drop {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.drop-text {
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 16px;
+  padding-right: 150px;
+  color: #253858;
+}
+
+.drop-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.drop-li {
+  display: flex;
+  background-color: #f7f7f9;
+  padding: 12px 12px;
+  border-radius: 8px;
+}
+
+.lang {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.union {
+  height: 10px;
+  align-self: center;
+}
+
+.union-down {
+  height: 18px;
+  align-self: center;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  padding: 0 36px;
+}
+
+@media (max-width: 203px) {
+  .drop-li {
+    flex-direction: column;
+  }
+
+  .mini-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .drop-text {
+    text-align: left;
+    padding: 0;
+  }
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 900;
+  margin: 1px;
+  color: #172b4d;
+}
+
+.dot2,
+.dot3 {
+  color: #7a869a;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.dot1 {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.dot {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.box-text {
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.about-text {
+  font-weight: 400;
+  line-height: 24px;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+button:active {
+  color: #fff;
+  background-color: #2230d2;
 }
