@@ -45,13 +45,14 @@ ul {
   display: flex;
   gap: 12px;
   padding: 0;
+  margin: 0;
 }
 
 .socialmedia ul {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 0;
+  padding: 8px 0;
 }
 
 .headline {
@@ -85,7 +86,7 @@ nav #myLogo {
 }
 
 .grid-box {
-  display: flex;
+  display: grid;
   margin-left: auto;
   margin-right: auto;
   flex-direction: column;
@@ -102,12 +103,12 @@ nav #myLogo {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 0;
+  padding: 24px 16px;
 }
 
 .box {
   background-color: #fff;
-  gap: 10px;
+  gap: 20px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -122,16 +123,16 @@ nav #myLogo {
   width: min(327px, 80vw);
 }
 
-input {
+.sm-btn {
   color: #396df2;
   font-size: 17px;
   font-weight: 500;
   background-color: #fff;
   border-color: #6070ff;
   border-radius: 8px;
-  padding: 8px 5px;
+  padding: 8px 12px;
   display: flex;
-  width: min(127px, 80vw);
+  text-align: center;
 }
 
 h1 {
@@ -146,12 +147,6 @@ p {
   line-height: 24px;
 }
 
-@media (max-width: 330px) {
-  ul {
-    flex-wrap: wrap;
-  }
-}
-
 .tag {
   background-color: #ebebff;
   border-radius: 8px;
@@ -164,13 +159,15 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 49px;
+  padding: 24px ;
   flex-wrap: wrap;
 }
 
 .about-header {
   line-height: 52px;
   font-size: 40px;
+  font-weight: 700;
+  font-family: 'Poppins';
 }
 
 .resume {
@@ -179,7 +176,7 @@ p {
   font-weight: 500;
   background-color: #fff;
   border-color: #6070ff;
-  padding: 4px 14px 4px 14px;
+  padding: 10px 14px;
   display: flex;
   border-radius: 8px;
 }
@@ -204,6 +201,7 @@ p {
 
 .drop-li {
   display: flex;
+  
   background-color: #f7f7f9;
   padding: 12px 12px;
   border-radius: 8px;
@@ -228,8 +226,7 @@ p {
 .dropdown {
   display: flex;
   flex-direction: column;
-  padding: 0 49px;
-  flex-wrap: wrap;
+  padding: 0 36px;
 }
 
 @media (max-width: 203px) {
@@ -251,4 +248,46 @@ p {
 h3 {
   font-size: 32px;
   font-weight: 900;
+  margin: 1px;
+}
+
+.dot2, .dot3 {
+  color: #7A869A;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.dot1 {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.dot {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.box-text {
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.about-text {
+  font-weight: 400;
+  line-height: 24px;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+button:active {
+  color: #fff;
+  background-color: #2230d2;
 }
