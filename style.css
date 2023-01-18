@@ -294,3 +294,72 @@ button:active {
   color: #fff;
   background-color: #2230d2;
 }
+
+.form-container {
+  background-color: #6070ff;
+  border-radius: 8rem 0 0 0;
+  padding: 0 24px 25px;
+  z-index: 0;
+  position: relative;
+  margin-top: 113px;
+}
+
+.form-container__img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+}
+
+.form-container__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-header {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  z-index: 3;
+  padding: 103px 0 12px 0;
+}
+
+.contact-p {
+  color: #ebebff;
+  text-align: center;
+  order: -1;
+  z-index: 3;
+  padding: 0 24px 20px;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+.submitBtn {
+  align-self: flex-start;
+  border-radius: 8px;
+  border: none;
+  padding: 12px 16px;
+  color: #6070ff;
+}
+
+.box-input {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 17px;
+}
+
+textarea {
+  resize: none;
+  height: 170px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+textarea::placeholder {
+  padding: 15px;
+}
