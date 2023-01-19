@@ -253,7 +253,7 @@ p {
 .dropdown {
   display: flex;
   flex-direction: column;
-  max-width: 70%;
+  width: 100%;
   padding: 0;
   margin-bottom: 57px;
 }
