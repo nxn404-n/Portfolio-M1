@@ -138,6 +138,8 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 - [ ] **CSS framework designing**
 - [ ] **More detailed**
 
+Outline walkthrough: (https://loom.com/share/bb150325e84e4c6f9fa3b058c611e929)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
