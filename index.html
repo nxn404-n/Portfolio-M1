@@ -13,6 +13,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap"
       rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Adil's Portfolio</title>
   </head>
   <body>
@@ -23,16 +24,19 @@
           <img src="req/mylogo.png" alt="Adil's Logo" id="myLogo" tabindex="1" aria-label="Adil's logo"/>
         </a>
         <!--Nav bar button-->
-        <img src="req/Union.png" alt="Hamburger button" id="logo"/>
-        <ul class="desk-icon">
+        <button class="hamburger">
+          <i class="menuIcon material-icons">menu</i>
+          <i class="closeIcon material-icons">close</i>
+        </button>
+        <ul class="desk-icon mobile-menu">
           <li class="desk-icon__text">
-            <a href="#works" tabindex="2">Portfolio</a>
+            <a href="#works" class="menuItem" tabindex="2">Portfolio</a>
           </li>
           <li class="desk-icon__text">
-            <a href="#about-section" tabindex="3">About</a>
+            <a href="#about-section" class="menuItem" tabindex="3">About</a>
           </li>
           <li class="desk-icon__text">
-            <a href="#Contact" tabindex="4">Contact</a>
+            <a href="#Contact" class="menuItem" tabindex="4">Contact</a>
           </li>
         </ul>
       </nav>
