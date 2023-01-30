@@ -138,14 +138,11 @@ nav {
 
 .menuItem {
   display: block;
-  margin: 2rem 4rem;
-  font-size: 1.8rem;
+  margin: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
   color: white;
   text-decoration: none;
-}
-
-.menuItem:hover {
-  text-decoration: underline;
 }
 
 .grid-box {
