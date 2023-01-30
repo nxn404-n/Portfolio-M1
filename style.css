@@ -102,11 +102,10 @@ nav {
 
 .menuIcon {
   color: #6070ff;
-  background-color: #fff;
 }
 
 .closeIcon {
-  display: none !important;
+  display: none;
 }
 
 .desk-icon {
@@ -210,6 +209,10 @@ nav {
   text-align: center;
 }
 
+.sm-btn:hover {
+  background-color: #6070ff; 
+}
+
 h1 {
   font-size: 32px;
   line-height: 44px;
@@ -255,6 +258,10 @@ p {
   padding: 10px 14px;
   display: flex;
   border-radius: 8px;
+}
+
+.resume:hover {
+  background-color: #6070ff; 
 }
 
 .drop {
@@ -430,6 +437,10 @@ button:active {
   border: none;
   padding: 12px 16px;
   color: #181d4e;
+}
+
+.submitBtn:hover {
+  background-color: #3e468a;
 }
 
 .box-input {
