@@ -106,7 +106,7 @@ nav {
 }
 
 .closeIcon {
-  display: none;
+  display: none !important;
 }
 
 .desk-icon {
