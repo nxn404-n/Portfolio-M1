@@ -85,18 +85,25 @@ nav {
   top: 1rem;
   right: 1rem;
   padding: 4px;
-  border: black solid 1px;
   background: white;
   cursor: pointer;
+  border: none;
+  color: #6070ff;
+}
+
+.hamburger:hover {
+  color: #6070ff;
+  border: none;
+  background-color: #fff;
 }
 
 .closeIcon {
   display: none;
 }
 
-/* .desk-icon {
+.desk-icon {
   display: none;
-} */
+}
 
 .mobile-menu {
   position: fixed;
@@ -458,6 +465,10 @@ input:focus {
   .desk-icon__text {
     padding: 0;
     margin: 0;
+  }
+  
+  .hamburger {
+    display: none;
   }
 
   .headline {
