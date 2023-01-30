@@ -11,7 +11,7 @@ function toggleMenu() {
     menuIcon.style.display = 'block';
   } else {
     menu.classList.add('showMenu');
-    closeIcon.setAttribute('style','display: block !important');  
+    closeIcon.setAttribute('style', 'display: block !important');
     menuIcon.style.display = 'none';
   }
 }
@@ -19,7 +19,7 @@ function toggleMenu() {
 hamburger.addEventListener('click', toggleMenu);
 
 menuItems.forEach(
-  function(menuItem) { 
-    menuItem.addEventListener('click', toggleMenu);
+  function (menuItema){ 
+    menuItema.addEventListener('click', toggleMenu);
   },
 );
