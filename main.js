@@ -11,7 +11,7 @@ function toggleMenu() {
     menuIcon.style.display = "block";
   } else {
     menu.classList.add("showMenu");
-    closeIcon.style.display = "block";
+    closeIcon.setAttribute('style', 'display: block !important');  
     menuIcon.style.display = "none";
   }
 }
