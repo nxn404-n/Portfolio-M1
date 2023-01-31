@@ -21,5 +21,5 @@ const menuItem = document.querySelectorAll('.menuItem');
 menuItem.forEach(
   function offScreen(menuItem) {
     menuItem.addEventListener('click', toggleMenu);
-  };
+  },
 );
