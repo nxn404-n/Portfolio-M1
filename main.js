@@ -16,3 +16,10 @@ function toggleMenu() {
 }
 
 hamburger.addEventListener('click', toggleMenu);
+
+const menuItem = document.querySelectorAll('.menuItem');
+menuItem.forEach(
+  function offScrn(menuItem) {
+    menuItem.addEventListener('click', toggleMenu);
+  }
+);

@@ -82,7 +82,7 @@ nav {
 .hamburger {
   position: fixed;
   z-index: 100;
-  top: 1rem;
+  top: 0.4rem;
   right: 1rem;
   padding: 4px;
   cursor: pointer;
