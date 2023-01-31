@@ -79,20 +79,70 @@ nav {
   justify-content: space-between;
 }
 
-nav #logo {
-  width: 18px;
-  height: 12px;
-  color: #929292;
+.hamburger {
+  position: fixed;
+  z-index: 100;
+  top: 0.4rem;
+  right: 1rem;
+  padding: 4px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.hamburger:hover {
+  color: #fff;
+  border: none;
+}
+
+.menuIcon {
+  color: #6070ff;
+}
+
+.closeIcon {
+  display: none !important;
 }
 
 .desk-icon {
   display: none;
 }
 
+.menu {
+  position: fixed;
+  display: block;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(7px);
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+  font-weight: 800;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
 .desk-icon__text {
   color: #344563;
   font-weight: 500;
   font-size: 15px;
+}
+
+.menuItem {
+  display: block;
+  margin: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
 }
 
 .grid-box {
@@ -153,6 +203,10 @@ nav #logo {
   text-align: center;
 }
 
+.sm-btn:hover {
+  background-color: #6070ff;
+}
+
 h1 {
   font-size: 32px;
   line-height: 44px;
@@ -198,6 +252,10 @@ p {
   padding: 10px 14px;
   display: flex;
   border-radius: 8px;
+}
+
+.resume:hover {
+  background-color: #6070ff;
 }
 
 .drop {
@@ -313,16 +371,6 @@ h3 {
   line-height: 24px;
 }
 
-button:hover {
-  color: #fff;
-  background-color: #6070ff;
-}
-
-button:active {
-  color: #fff;
-  background-color: #2230d2;
-}
-
 .form-container {
   background-color: #6070ff;
   border-radius: 8rem 0 0 0;
@@ -375,6 +423,10 @@ button:active {
   color: #181d4e;
 }
 
+.submitBtn:hover {
+  background-color: #3e468a;
+}
+
 .box-input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -418,6 +470,10 @@ input:focus {
   .desk-icon__text {
     padding: 0;
     margin: 0;
+  }
+
+  .hamburger {
+    display: none;
   }
 
   .headline {

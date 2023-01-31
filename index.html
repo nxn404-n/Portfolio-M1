@@ -13,6 +13,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap"
       rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Adil's Portfolio</title>
   </head>
   <body>
@@ -23,7 +24,15 @@
           <img src="req/mylogo.png" alt="Adil's Logo" id="myLogo" tabindex="1" aria-label="Adil's logo"/>
         </a>
         <!--Nav bar button-->
-        <img src="req/Union.png" alt="Hamburger button" id="logo"/>
+        <button class="hamburger">
+          <i class="menuIcon material-icons">menu</i>
+          <i class="closeIcon material-icons">close</i>
+        </button>
+        <ul class="menu">
+          <li><a class="menuItem" href="#works">Portfolio</a></li>
+          <li><a class="menuItem" href="#about-section">About</a></li>
+          <li><a class="menuItem" href="#Contact">Contact</a></li>
+        </ul>
         <ul class="desk-icon">
           <li class="desk-icon__text">
             <a href="#works" tabindex="2">Portfolio</a>
@@ -294,5 +303,6 @@
         <button type="submit" class="submitBtn" tabindex="37">Get It Touch</button>
       </form>
     </section>
+    <script src="main.js"></script>
   </body>
 </html>
