@@ -19,7 +19,7 @@ hamburger.addEventListener('click', toggleMenu);
 
 const menuItem = document.querySelectorAll('.menuItem');
 menuItem.forEach(
-  function menuItems(menuItem) {
+  (menuItem) => {
     menuItem.addEventListener('click', toggleMenu);
   },
 );
