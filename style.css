@@ -651,6 +651,10 @@ input:focus {
     width: 95%;
   }
 
+  .sep {
+    padding-top: 70px !important;
+  }
+
   .popPart2 {
     grid-area: part2;
     width: 100%;
@@ -669,6 +673,24 @@ input:focus {
 @media (max-width: 768px) {
   .desktag {
     display: none;
+  }
+
+  .modal-hid__content {
+    width: 85% !important;
+  }
+
+  .lowerBtn {
+    padding: 26px !important;
+  }
+
+  .modal-hid__content__lower {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 20px !important;
+  }
+
+  .sep {
+    padding-top: 35px !important;
   }
 }
 
@@ -783,7 +805,7 @@ input:focus {
 }
 
 .sep {
-  padding-top: 70px;
+  padding-top: 0;
 }
 
 .modal-hid__content__lower {
