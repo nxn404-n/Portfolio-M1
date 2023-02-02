@@ -740,3 +740,23 @@ input:focus {
   cursor: pointer;
 }
 
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 7000px;
+  height: 7000px;
+  padding: 0;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}
+
+.popPart {
+  padding-top: 10px;
+}
