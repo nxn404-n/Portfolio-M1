@@ -15,7 +15,8 @@ body {
   display: flex;
   overflow-x: hidden;
   flex-direction: column;
-  margin: auto;
+  margin: 0;
+  padding: 0;
   background-color: #e5e5e5;
   position: relative;
 }
@@ -419,6 +420,7 @@ h3 {
   font-weight: 400;
   display: flex;
   flex-direction: column;
+  line-height: 24px;
   margin: 0;
 }
 
@@ -621,12 +623,22 @@ input:focus {
     max-width: 70%;
   }
 
+  .modal-hid__content {
+    max-width: 82.5%;
+    display: flex;
+    gap: 20px;
+  }
+
   .popPic-container {
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .popPic {
+    max-width: 95.9%;
   }
 
   .popPart {
@@ -654,6 +666,12 @@ input:focus {
   }
 }
 
+@media (max-width: 768px) {
+  .desktag {
+    display: none;
+  }
+}
+
 .modal {
   position: fixed;
   top: 50%;
@@ -673,12 +691,11 @@ input:focus {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 100;
-  width: 80%;
-  height: 96%;
+  width: 98%;
+  height: 98%;
   overflow-y: scroll;
   overflow-x: hidden;
-  border: 2px solid rgb(104, 62, 160);
-  padding: 18px 10px 0;
+  padding: 18px 16px 0;
   border-radius: 16px;
 }
 
@@ -686,6 +703,9 @@ input:focus {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 0;
+  margin: 0;
+  padding-top: 24px;
 }
 
 .popPic {
@@ -695,9 +715,10 @@ input:focus {
 .modal-hid__content__upper__head {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-bottom: 0;
+  align-items: flex-end;
   margin: 0;
+  height: 0;
+  padding: 14px 0 0;
 }
 
 .closeBtn {
@@ -722,22 +743,72 @@ input:focus {
   font-weight: 400;
 }
 
+.popPart2 {
+  padding-top: 10px;
+}
+
+.popTag {
+  width: 45px;
+  height: 24px;
+  display: grid;
+  align-items: center;
+  justify-content: flex-start;
+  grid-template-areas:
+    'a b c'
+    'd e f';
+}
+
+.desktag1 {
+  grid-area: a;
+}
+
+.desktag2 {
+  grid-area: b;
+}
+
+.desktag3 {
+  grid-area: c;
+}
+
+.desktag4 {
+  grid-area: d;
+}
+
+.desktag5 {
+  grid-area: e;
+}
+
+.desktag6 {
+  grid-area: f;
+}
+
 .sep {
-  padding-top: 20px;
+  padding-top: 70px;
 }
 
 .modal-hid__content__lower {
   display: flex;
-  padding: 20px 0 0;
+  padding: 10px 0 0;
   justify-content: space-around;
   margin: 0;
+  gap: 20px;
 }
 
 .lowerBtn {
-  gap: 10px;
   align-items: center;
-  padding: 10px 15px;
+  padding: 12px 14px;
   cursor: pointer;
+  width: 146px;
+  height: 47px;
+  gap: 14px;
+}
+
+.btn2 {
+  display: flex;
+  width: 54%;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .overlay {

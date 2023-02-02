@@ -59,20 +59,23 @@ const displayModal = (data) => {
     <div class ="popPart">
       <div class="modal-hid__content__mid">
            <p class="box-text">
-           ${data.description}
+           ${data.deskdesc}
             </p>
       </div>
         <div class ="popPart2">
          <ul class="tagul popTag">
-              <li class="tag">${data.technologies[0]}</li>
-              <li class="tag">${data.technologies[1]}</li>
-               <li class="tag">${data.technologies[2]}</li>
+              <li class="tag desktag1">${data.technologies[0]}</li>
+              <li class="tag desktag2">${data.technologies[1]}</li>
+              <li class="tag desktag3">${data.technologies[2]}</li>
+              <li class="tag desktag desktag4">${data.technologies[3]}</li>
+              <li class="tag desktag desktag5">${data.technologies[4]}</li>
+              <li class="tag desktag desktag6">${data.technologies[5]}</li>
          </ul>
      
          <img src="${data.separator}" class="sep">
             <div class="modal-hid__content__lower">
-               <button class="sm-btn lowerBtn">See live <img src="${data.liveLogo}"></button>
-              <button class="sm-btn lowerBtn">See Source <img src="${data.sourceLogo}"></button>
+               <button class="sm-btn lowerBtn btn1">See live <img src="${data.liveLogo}"></button>
+              <button class="sm-btn lowerBtn btn2">See Source <img src="${data.sourceLogo}"></button>
             </div>
         </div>
     </div>
