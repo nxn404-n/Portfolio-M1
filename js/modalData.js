@@ -64,4 +64,4 @@ const projectData = [
     popPic: 'req/poppic.svg',
   },
 ];
-export default projectData;
+
