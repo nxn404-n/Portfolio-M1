@@ -853,3 +853,14 @@ input:focus {
 .popPart {
   padding-top: 10px;
 }
+
+#errorMsg {
+  display: none;
+  justify-content: center;
+  background-color: rebeccapurple;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid black;
+}
