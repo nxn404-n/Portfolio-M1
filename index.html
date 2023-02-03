@@ -169,12 +169,14 @@
         action="https://formspree.io/f/mayznbvq"
         method="post"
         class="form-container__form"
+        id="form-container"
       >
         <input
           type="text"
           name="username"
           placeholder="Please insert your name"
           class="box-input"
+          id="box-input-username"
           maxlength="30"
           required
           tabindex="34"
@@ -184,6 +186,7 @@
           name="email"
           placeholder="Please insert your email"
           class="box-input"
+          id="box-input-email"
           required
           tabindex="35"
           aria-label="Please input your email here"/>
@@ -195,7 +198,7 @@
           tabindex="36"
           aria-label="Please input your comment here">
         </textarea>
-        <button type="submit" class="submitBtn" tabindex="37">Get It Touch</button>
+        <button type="submit" class="submitBtn" id="submitBtn"tabindex="37">Get It Touch</button>
         <span id="errorMsg" class="errorMsg"></span>
       </form>
     </section>
