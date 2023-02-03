@@ -855,7 +855,7 @@ input:focus {
 }
 
 #errorMsg {
-  display: flex;
+  display: none;
   justify-content: center;
   background-color: rebeccapurple;
   color: white;
