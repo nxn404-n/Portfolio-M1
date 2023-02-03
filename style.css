@@ -853,3 +853,8 @@ input:focus {
 .popPart {
   padding-top: 10px;
 }
+
+.errorMsg {
+  display: flex;
+  justify-content: center;
+}
