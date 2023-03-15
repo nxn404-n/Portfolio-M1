@@ -67,9 +67,9 @@ const displayModal = (data) => {
               <li class="tag desktag1">${data.technologies[0]}</li>
               <li class="tag desktag2">${data.technologies[1]}</li>
               <li class="tag desktag3">${data.technologies[2]}</li>
-              <li class="tag desktag desktag4">${data.technologies[3]}</li>
+             <!-- <li class="tag desktag desktag4">${data.technologies[3]}</li>
               <li class="tag desktag desktag5">${data.technologies[4]}</li>
-              <li class="tag desktag desktag6">${data.technologies[5]}</li>
+              <li class="tag desktag desktag6">${data.technologies[5]}</li> -->
          </ul>
      
          <img src="${data.separator}" class="sep">
